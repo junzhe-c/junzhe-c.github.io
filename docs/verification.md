@@ -39,3 +39,10 @@ The previous homepage remains in Git history. On 2026-08-31 the owner confirmed 
 - Visually inspected homepage and illustrated publications on desktop; inspected the TOC-Bench and LCPAQ figures and their descriptions. All three publication figures loaded. Checked the publication page at 320px, 390px, 768px, and 1280px without horizontal overflow, and the homepage at 390px.
 - Confirmed homepage-to-paper and back-to-home navigation, publication jump links, and target positions below the fixed header. The page does not require JavaScript.
 - `git diff --check` passed. Local screenshots and preparation notes are stored under `.preview/2026-10-15-publications/` (gitignored).
+
+## Semi-RSTOD fourth illustration
+
+- Added a source-grounded explanatory SVG with the same figure/caption/full-size-link layout as the other three papers. The page now has four figures across four articles.
+- The original figure was not publicly available behind the SPIE subscription boundary. The new graphic and caption explicitly identify it as a schematic redrawn from the publisher's abstract.
+- Parsed the SVG as XML; checked its linked local path and meaningful alt text. Inspected its desktop rendering and verified the image loaded. At 390px the document has no horizontal overflow and the full-size link resolves to the SVG.
+- No browser console errors or warnings were recorded. `git diff --check` passed.

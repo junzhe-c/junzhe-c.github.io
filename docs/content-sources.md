@@ -89,3 +89,11 @@ Source: the user's original `index.html`, fetched from <https://github.com/junzh
 - The homepage thumbnails and LCPAQ display image are proportional downsampled copies for faster rendering. The full original files remain accessible through each figure's link. Scientific figure contents were not edited or synthesized.
 - The SPIE public article request for Semi-RSTOD returned an anti-bot incident message. No attempt was made to bypass it. That entry uses a title-level description and its original publication link, without an invented figure or unsupported method/result details.
 - Line icons are unmodified Lucide SVGs downloaded from <https://github.com/lucide-icons/lucide/tree/main/icons>. The copyright and license text are retained in `assets/icons/LICENSE.txt`. Icons are decorative (`aria-hidden`) and hosted locally; labels and navigation remain readable without them.
+
+## Semi-RSTOD figure follow-up
+
+- The owner requested a fourth illustration to make the publication entries visually consistent.
+- Read the publisher's public abstract in a normal browser session on 2026-10-15. The article page explicitly limits full text to subscription access and exposes no paper figures. No access restriction was bypassed. OpenAlex reports no open-access repository copy.
+- Publisher-deposited Crossref metadata now includes the abstract: <https://api.crossref.org/works/10.1117/1.JEI.34.3.033047>. It identifies contextual feature refinement (CFR), multiscale cross-view features, adaptive perception loss (APL), and object-size/class considerations for pseudo-label imbalance.
+- Created `assets/papers/semi-rstod.svg` as an explanatory schematic based only on those abstract-level facts. It is not an original published figure or an experimental result; this distinction is stated inside the graphic, in its accessible description, and in the webpage caption. The schematic does not assert training architecture, teacher/student wiring, measured performance, or numeric results unavailable in the abstract.
+- The small target boxes are expressly illustrative. The graphic shares the existing paper-figure frame, caption, responsive layout, and full-size link. Updated the brief paragraph to reflect the verified CFR/APL description.

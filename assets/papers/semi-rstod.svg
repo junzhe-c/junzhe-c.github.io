@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="650" viewBox="0 0 1400 650" role="img" aria-labelledby="title description">
+  <title id="title">Semi-RSTOD: high-level method overview</title>
+  <desc id="description">An explanatory diagram redrawn from the publisher's abstract, rather than an original paper figure. Limited labeled data and weak tiny-object features motivate contextual feature refinement and adaptive perception loss for semi-supervised remote-sensing tiny-object detection.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1 1 8 5 1 9" fill="none" stroke="#7b919d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  </defs>
+  <rect width="1400" height="650" fill="#ffffff"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="44" y="52" fill="#30343b" font-size="30" font-weight="600">Semi-RSTOD</text>
+    <text x="44" y="85" fill="#65727c" font-size="19">Semi-supervised remote-sensing tiny-object detection</text>
+
+    <rect x="44" y="124" width="284" height="446" rx="12" fill="#f6f8fa" stroke="#dce4e9" stroke-width="2"/>
+    <text x="68" y="164" fill="#415463" font-size="21" font-weight="600">Challenges</text>
+    <rect x="64" y="190" width="244" height="152" rx="9" fill="#ffffff" stroke="#e0e7eb" stroke-width="1.5"/>
+    <text x="84" y="226" fill="#30343b" font-size="22" font-weight="600">Limited labels</text>
+    <text x="84" y="262" fill="#626973" font-size="18">Few annotated objects</text>
+    <text x="84" y="292" fill="#626973" font-size="18">Long-tail class distribution</text>
+    <rect x="64" y="364" width="244" height="174" rx="9" fill="#ffffff" stroke="#e0e7eb" stroke-width="1.5"/>
+    <text x="84" y="403" fill="#30343b" font-size="22" font-weight="600">Tiny objects</text>
+    <text x="84" y="440" fill="#626973" font-size="18">Weak visual features</text>
+    <text x="84" y="471" fill="#626973" font-size="18">Fine details are difficult</text>
+    <text x="84" y="499" fill="#626973" font-size="18">to represent</text>
+
+    <path d="M342 347H390" fill="none" stroke="#7b919d" stroke-width="2.2" marker-end="url(#arrow)"/>
+
+    <rect x="410" y="124" width="590" height="446" rx="12" fill="#f8fafb" stroke="#dce4e9" stroke-width="2"/>
+    <text x="436" y="164" fill="#415463" font-size="21" font-weight="600">Two complementary components</text>
+    <rect x="432" y="190" width="546" height="152" rx="9" fill="#eef5fa" stroke="#b9d1e1" stroke-width="1.5"/>
+    <rect x="432" y="190" width="6" height="152" rx="3" fill="#5284a6"/>
+    <text x="458" y="226" fill="#23669b" font-size="23" font-weight="600">Contextual Feature Refinement (CFR)</text>
+    <text x="458" y="266" fill="#4f626f" font-size="20">Multiscale, cross-view feature information</text>
+    <text x="458" y="303" fill="#4f626f" font-size="20">Salient regions, semantics, and fine details</text>
+    <rect x="432" y="364" width="546" height="174" rx="9" fill="#eef7f5" stroke="#b6d6d0" stroke-width="1.5"/>
+    <rect x="432" y="364" width="6" height="174" rx="3" fill="#528f85"/>
+    <text x="458" y="403" fill="#277e80" font-size="23" font-weight="600">Adaptive Perception Loss (APL)</text>
+    <text x="458" y="443" fill="#4f6661" font-size="20">Considers object size and class variation</text>
+    <text x="458" y="481" fill="#4f6661" font-size="20">Addresses imbalance in generated</text>
+    <text x="458" y="511" fill="#4f6661" font-size="20">pseudo-labels</text>
+
+    <path d="M1016 347H1064" fill="none" stroke="#7b919d" stroke-width="2.2" marker-end="url(#arrow)"/>
+
+    <rect x="1084" y="124" width="272" height="446" rx="12" fill="#f6f8fa" stroke="#dce4e9" stroke-width="2"/>
+    <text x="1108" y="164" fill="#415463" font-size="21" font-weight="600">Task</text>
+    <text x="1108" y="218" fill="#30343b" font-size="23" font-weight="600">Tiny-object</text>
+    <text x="1108" y="249" fill="#30343b" font-size="23" font-weight="600">detection</text>
+    <text x="1108" y="289" fill="#626973" font-size="18">Remote-sensing imagery</text>
+    <rect x="1107" y="318" width="226" height="180" rx="6" fill="#e8eff1" stroke="#d1dfe2"/>
+    <path d="M1130 318V498M1164 318V498M1198 318V498M1232 318V498M1266 318V498M1300 318V498M1107 344H1333M1107 378H1333M1107 412H1333M1107 446H1333M1107 480H1333" stroke="#d7e3e6" stroke-width="1"/>
+    <g fill="#7d949d"><rect x="1138" y="355" width="8" height="5"/><rect x="1196" y="389" width="7" height="5"/><rect x="1283" y="457" width="8" height="5"/></g>
+    <g fill="none" stroke="#528f85" stroke-width="2"><rect x="1133" y="350" width="18" height="15" rx="1"/><rect x="1191" y="384" width="17" height="15" rx="1"/><rect x="1278" y="452" width="18" height="15" rx="1"/></g>
+    <text x="1108" y="531" fill="#65727c" font-size="16">Illustrative targets, not results</text>
+
+    <text x="44" y="610" fill="#697680" font-size="17">Explanatory schematic redrawn from the published abstract. Not an original figure or experimental result.</text>
+  </g>
+</svg>

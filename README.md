@@ -20,7 +20,7 @@ python3 -m http.server 4173 --bind 127.0.0.1
 - `publications.html`：完整论文列表，包含每篇的简短介绍、原始论文图、资源链接和独立锚点。
 - `assets/styles.css`：桌面、平板、手机和打印样式。
 - `assets/citations/*.bib`：各篇论文的 BibTeX；`assets/publications.bib` 为完整合集。
-- `assets/papers/`：三篇论文的原始图、首页缩略图和显示副本，完整图片可单独打开。
+- `assets/papers/`：三篇论文的原始图、Semi-RSTOD 的摘要方法示意图、首页缩略图和显示副本；完整图片可单独打开。
 - `assets/icons/`：本地 Lucide SVG 图标及授权文件。
 - `assets/fonts/`：保留旧版字体与授权文件；当前使用系统字体。
 - `docs/content-sources.md`：核对来源、日期和仍需本人确认的履历信息。
