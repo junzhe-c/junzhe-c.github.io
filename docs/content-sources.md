@@ -68,3 +68,13 @@ Source: the user's original `index.html`, fetched from <https://github.com/junzh
 - The implementation, typography, layout, and decorative covers are original; source HTML/CSS was not copied from either reference.
 - DM Sans and Newsreader were downloaded from Google Fonts and served locally. License files are under `assets/fonts/`.
 - Retains GitHub Pages and the existing `junzhec.top` CNAME; no hosting-platform migration is required. The owner explicitly authorized replacing the live homepage after confirming the education details.
+
+## 2026-10-15 style revision and Scholar recheck
+
+- The owner requested a more restrained academic homepage and supplied <https://simolark.com/> as the design reference. The new design uses a white background, a text-only profile sidebar, conventional headings, and blue academic/resource links. It removes the previous poster-style hero, research illustration, publication cover art, filters, and display fonts.
+- The linked reference was read and visually inspected. No biography, publications, awards, headshot, or source HTML/CSS from the reference were copied. The current source and styles were written for Junzhe Chen's existing static GitHub Pages repository.
+- Re-fetched the owner's exact Google Scholar profile on 2026-10-15. The web retrieval service returned HTTP 429, but a normal direct public HTTPS request succeeded with HTTP 200. The rendered article table listed the same four papers, with two 2026 arXiv preprints, Semi-RSTOD (2025), and ICASSP (2024). No venue acceptance was inferred beyond the listed records.
+- Kept all four complete author lists, publication titles, confirmed education details, industry roles, awards, and verified GitHub username `junzhe-c`. Displayed the owner's confirmed English name as Junzhe (Jason) Chen, while retaining Junzhe Chen in publication author lists.
+- The degree status at Tianjin University and JHU dates come from the owner's direct corrections in this conversation; Scholar's generic student description does not override those corrections.
+- No portrait was supplied for this website. The profile sidebar uses text rather than a placeholder or a photograph of another person.
+- The current page is fully static, uses system fonts, and does not load JavaScript. The old figure/font files remain in the repository for provenance but are no longer loaded by the page.

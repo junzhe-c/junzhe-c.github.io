@@ -15,3 +15,14 @@
 - Screenshots are saved locally under `.preview/` (gitignored).
 
 The previous homepage remains in Git history. On 2026-08-31 the owner confirmed JHU dates (January 2024–May 2025), their Ph.D. status at Tianjin University, and authorization to publish this redesign to the existing `main` branch. Deployment completion must be checked against the Pages build status and the live homepage.
+
+## 2026-10-15 academic style revision
+
+- Replaced the decorative design with a white academic layout: left profile sidebar, right content column, standard section headings, blue resource links, and numbered text publications. All four titles and complete author lists are retained. Preprints and peer-reviewed publications are explicitly grouped.
+- Rechecked the supplied Google Scholar profile on 2026-10-15; its table still lists these four publications. Retrieved the public profile successfully after the web retrieval service returned HTTP 429. The current source does not claim unlisted conference acceptances.
+- Inspected the new desktop layout visually at the normal 1280px viewport, and checked 768px, 390px, and 320px widths. None has horizontal document overflow. On mobile the sidebar becomes a profile block above the main content.
+- Checked publication and education anchor navigation against the sticky header. The destinations appear below the header. Awards are now visible without expanding a disclosure.
+- Confirmed all four paper titles, the owner-confirmed Ph.D. role, January 2024–May 2025 JHU dates, and the original CNAME are retained. Checked local citation/resources and fragment destinations; the document has one h1 and unique IDs.
+- The HTML has no scripts and loads no external font, decoration image, or tracking resource. All page content and resource links work without JavaScript.
+- README and content-source notes describe the current structure. Previous design assets remain in the repository for provenance but are not used by the page.
+- `git diff --check` passed. Local preview returns HTTP 200. Detailed external-link responses and before/after screenshots are under `.preview/2026-10-15/` (gitignored).
