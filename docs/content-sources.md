@@ -78,3 +78,14 @@ Source: the user's original `index.html`, fetched from <https://github.com/junzh
 - The degree status at Tianjin University and JHU dates come from the owner's direct corrections in this conversation; Scholar's generic student description does not override those corrections.
 - No portrait was supplied for this website. The profile sidebar uses text rather than a placeholder or a photograph of another person.
 - The current page is fully static, uses system fonts, and does not load JavaScript. The old figure/font files remain in the repository for provenance but are no longer loaded by the page.
+
+## 2026-10-15 illustrated publications follow-up
+
+- The owner explicitly confirmed that their advisor is Xiaojie Guo (郭晓杰). Added the advisor to the homepage biography and the shared sidebar. The personal homepage URL <https://sites.google.com/view/xjguo> was cross-checked against Tianjin University's faculty page <https://cic.tju.edu.cn/info/1072/1174.htm>. The website does not infer an unconfirmed lab name or enrollment date.
+- Added `publications.html` for all four papers, using existing verified author lists and venues. It has its own title, canonical URL, Open Graph metadata, and publication anchors. The main page links to this page and previews the two 2026 works.
+- SlotNarrative: the retained original teaser comes from <https://arxiv.org/html/2608.04866v1/figures/fig0_intro_teaser.png>. The description comes from its abstract: parameter-free memory, persistent identity/state tokens, and 144 allocated visual-token positions.
+- TOC-Bench: downloaded the actual representative QA figure from <https://arxiv.org/html/2605.09904v2/fig/intro_vis.png>. Its caption identifies four question formats. The text retains the public abstract's 2,323 questions, 1,951 videos, and 10 diagnostic dimensions.
+- LCPAQ: downloaded the actual framework figure from <https://arxiv.org/html/2402.17706v1/fig2.png>. The description follows the abstract's hardware-aware module, Hessian sensitivity, Pareto selection, integer programming, and proxy search. Image transparency is displayed over white.
+- The homepage thumbnails and LCPAQ display image are proportional downsampled copies for faster rendering. The full original files remain accessible through each figure's link. Scientific figure contents were not edited or synthesized.
+- The SPIE public article request for Semi-RSTOD returned an anti-bot incident message. No attempt was made to bypass it. That entry uses a title-level description and its original publication link, without an invented figure or unsupported method/result details.
+- Line icons are unmodified Lucide SVGs downloaded from <https://github.com/lucide-icons/lucide/tree/main/icons>. The copyright and license text are retained in `assets/icons/LICENSE.txt`. Icons are decorative (`aria-hidden`) and hosted locally; labels and navigation remain readable without them.

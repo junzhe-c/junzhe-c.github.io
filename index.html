@@ -12,7 +12,7 @@
   <title>Junzhe Chen — Academic Homepage</title>
   <link rel="canonical" href="https://junzhec.top/">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css?v=20261015">
+  <link rel="stylesheet" href="assets/styles.css?v=20261015b">
 </head>
 <body id="top">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -22,7 +22,7 @@
       <a class="site-name" href="#top">Junzhe Chen</a>
       <nav aria-label="Main navigation">
         <a href="#about">About</a>
-        <a href="#publications">Publications</a>
+        <a href="publications.html">Publications</a>
         <a href="#education">Education</a>
         <a href="mailto:junzhec12@gmail.com">Contact</a>
       </nav>
@@ -34,23 +34,24 @@
       <h1 id="profile-name">Junzhe <span class="preferred-name">(Jason)</span> Chen</h1>
       <p class="profile-role">Ph.D. student <span class="profile-subject">in Computer Science</span></p>
       <p class="profile-affiliation">Tianjin University</p>
+      <p class="profile-advisor">Advisor <br><a href="https://sites.google.com/view/xjguo" target="_blank" rel="noreferrer">Xiaojie Guo <span lang="zh-CN">郭晓杰</span></a></p>
       <ul class="profile-links" aria-label="Academic profiles and contact">
-        <li><a href="mailto:junzhec12@gmail.com">Email</a></li>
-        <li><a href="https://scholar.google.com/citations?user=YjoHl1EAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar</a></li>
-        <li><a href="https://github.com/junzhe-c" target="_blank" rel="noreferrer">GitHub</a></li>
+        <li><a href="mailto:junzhec12@gmail.com"><span class="icon icon-mail" aria-hidden="true"></span><span>Email</span></a></li>
+        <li><a href="https://scholar.google.com/citations?user=YjoHl1EAAAAJ&amp;hl=en" target="_blank" rel="noreferrer"><span class="icon icon-graduation-cap" aria-hidden="true"></span><span>Google Scholar</span></a></li>
+        <li><a href="https://github.com/junzhe-c" target="_blank" rel="noreferrer"><span class="icon icon-code-xml" aria-hidden="true"></span><span>GitHub</span></a></li>
       </ul>
     </aside>
 
     <main id="main">
       <section id="about" aria-labelledby="about-heading">
-        <h2 id="about-heading">About Me</h2>
-        <p>I am a Ph.D. student in Computer Science at <a href="https://en.tju.edu.cn/" target="_blank" rel="noreferrer">Tianjin University</a>. Previously, I received my M.S. in Computer Science from Johns Hopkins University (January 2024–May 2025) and my B.Eng. in Software Engineering from Beijing Jiaotong University (2019–2023).</p>
+        <h2 id="about-heading"><span class="icon icon-user-round" aria-hidden="true"></span>About Me</h2>
+        <p>I am a Ph.D. student in Computer Science at <a href="https://en.tju.edu.cn/" target="_blank" rel="noreferrer">Tianjin University</a>, advised by <a href="https://sites.google.com/view/xjguo" target="_blank" rel="noreferrer">Xiaojie Guo (<span lang="zh-CN">郭晓杰</span>)</a>. Previously, I received my M.S. in Computer Science from Johns Hopkins University (January 2024–May 2025) and my B.Eng. in Software Engineering from Beijing Jiaotong University (2019–2023).</p>
         <p>My research focuses on <strong>computer vision</strong>, <strong>video understanding</strong>, and <strong>vision-language models</strong>. I am particularly interested in how models preserve object identity and state over time, reason from visual evidence, and represent videos efficiently. My earlier work includes tiny-object detection and mixed-precision quantization.</p>
         <p>I welcome discussions about research and potential collaborations. Please feel free to <a href="mailto:junzhec12@gmail.com">contact me</a>.</p>
       </section>
 
       <section id="news" aria-labelledby="news-heading">
-        <h2 id="news-heading">News</h2>
+        <h2 id="news-heading"><span class="icon icon-newspaper" aria-hidden="true"></span>News</h2>
         <ul class="news-list">
           <li><time datetime="2026-08">2026.08</time><span><a href="https://arxiv.org/abs/2608.04866" target="_blank" rel="noreferrer">SlotNarrative</a>, our work on token-efficient video-language models, is available on arXiv.</span></li>
           <li><time datetime="2026-05">2026.05</time><span>We introduced <a href="https://arxiv.org/abs/2605.09904" target="_blank" rel="noreferrer">TOC-Bench</a>, a benchmark for temporal object consistency in Video-LLMs.</span></li>
@@ -59,56 +60,40 @@
 
       <section id="publications" aria-labelledby="publications-heading">
         <div class="section-header">
-          <h2 id="publications-heading">Publications &amp; Preprints</h2>
-          <a class="section-link" href="https://scholar.google.com/citations?user=YjoHl1EAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
+          <h2 id="publications-heading"><span class="icon icon-book-open" aria-hidden="true"></span>Research Highlights</h2>
+          <a class="section-link" href="publications.html">All publications <span class="icon icon-arrow-up-right" aria-hidden="true"></span></a>
         </div>
-        <p class="section-note">My name is shown in bold. <a href="assets/publications.bib" download>Download all BibTeX</a>.</p>
-
-        <h3 class="publication-group">Preprints</h3>
-        <ol class="publication-list">
-          <li>
-            <article class="publication" aria-labelledby="slotnarrative-title">
-              <h4 id="slotnarrative-title"><a href="https://arxiv.org/abs/2608.04866" target="_blank" rel="noreferrer">Persistent Object Narratives for Token-Efficient Video Language Models</a></h4>
-              <p class="authors"><strong>Junzhe Chen</strong>, Siyuan Meng, Xiaojie Guo</p>
-              <p class="venue"><em>arXiv preprint</em>, 2026</p>
-              <p class="paper-summary">SlotNarrative represents recurring objects with compact identity and state tokens for a frozen Video-LLM.</p>
-              <p class="paper-links"><a href="https://arxiv.org/abs/2608.04866" target="_blank" rel="noreferrer">Paper</a><span aria-hidden="true"> / </span><a href="https://arxiv.org/pdf/2608.04866" target="_blank" rel="noreferrer">PDF</a><span aria-hidden="true"> / </span><a href="assets/citations/slotnarrative.bib" download>BibTeX</a></p>
-            </article>
-          </li>
-          <li>
-            <article class="publication" aria-labelledby="toc-bench-title">
-              <h4 id="toc-bench-title"><a href="https://arxiv.org/abs/2605.09904" target="_blank" rel="noreferrer">TOC-Bench: A Temporal Object Consistency Benchmark for Video Large Language Models</a></h4>
-              <p class="authors"><strong>Junzhe Chen</strong>, Siyuan Meng, Yuxi Chen, Man Zhao, Wenyao Gui, Xiaojie Guo</p>
-              <p class="venue"><em>arXiv preprint</em>, 2026</p>
-              <p class="paper-summary">An object-track-grounded benchmark for evaluating identity, state, and temporal continuity in Video-LLMs.</p>
-              <p class="paper-links"><a href="https://arxiv.org/abs/2605.09904" target="_blank" rel="noreferrer">Paper</a><span aria-hidden="true"> / </span><a href="https://arxiv.org/pdf/2605.09904" target="_blank" rel="noreferrer">PDF</a><span aria-hidden="true"> / </span><a href="https://github.com/junzhe-c/toc_bench" target="_blank" rel="noreferrer">Code</a><span aria-hidden="true"> / </span><a href="assets/citations/toc-bench.bib" download>BibTeX</a></p>
-            </article>
-          </li>
-        </ol>
-
-        <h3 class="publication-group">Peer-reviewed publications</h3>
-        <ol class="publication-list" start="3">
-          <li>
-            <article class="publication" aria-labelledby="semi-rstod-title">
-              <h4 id="semi-rstod-title"><a href="https://doi.org/10.1117/1.JEI.34.3.033047" target="_blank" rel="noreferrer">Semi-RSTOD: Toward Semi-Supervised Remote Sensing Tiny Object Detection</a></h4>
-              <p class="authors">Wenhao Xiang, Qianying Tang, <strong>Junzhe Chen</strong>, Xiang Wei, Shunli Zhang, Li Zhang</p>
-              <p class="venue"><em>Journal of Electronic Imaging</em>, 34(3), 033047, 2025</p>
-              <p class="paper-links"><a href="https://doi.org/10.1117/1.JEI.34.3.033047" target="_blank" rel="noreferrer">Paper</a><span aria-hidden="true"> / </span><a href="assets/citations/semi-rstod.bib" download>BibTeX</a></p>
-            </article>
-          </li>
-          <li>
-            <article class="publication" aria-labelledby="lcpaq-title">
-              <h4 id="lcpaq-title"><a href="https://arxiv.org/abs/2402.17706" target="_blank" rel="noreferrer">Adaptive Quantization with Mixed-Precision Based on Low-Cost Proxy</a></h4>
-              <p class="authors"><strong>Junzhe Chen</strong>, Qiao Yang, Senmao Tian, Shunli Zhang</p>
-              <p class="venue"><em>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</em>, pp. 6720–6724, 2024</p>
-              <p class="paper-links"><a href="https://arxiv.org/abs/2402.17706" target="_blank" rel="noreferrer">Paper</a><span aria-hidden="true"> / </span><a href="https://arxiv.org/pdf/2402.17706" target="_blank" rel="noreferrer">PDF</a><span aria-hidden="true"> / </span><a href="https://doi.org/10.1109/ICASSP48485.2024.10447866" target="_blank" rel="noreferrer">DOI</a><span aria-hidden="true"> / </span><a href="assets/citations/lcpaq.bib" download>BibTeX</a></p>
-            </article>
-          </li>
-        </ol>
+        <div class="research-previews">
+        <article class="research-preview" aria-labelledby="slotnarrative-title">
+          <a class="preview-figure" href="publications.html#slotnarrative" aria-label="Read more about SlotNarrative">
+            <img src="assets/papers/slotnarrative-thumb.png" alt="Comparison of frame tokens, per-frame object slots, and persistent object narratives in SlotNarrative." width="2136" height="919" loading="lazy" decoding="async">
+          </a>
+          <div class="preview-copy">
+            <h3 id="slotnarrative-title"><a href="publications.html#slotnarrative">Persistent Object Narratives for Token-Efficient Video Language Models</a></h3>
+            <p class="authors"><strong>Junzhe Chen</strong>, Siyuan Meng, Xiaojie Guo</p>
+            <p class="venue"><em>arXiv preprint</em>, 2026</p>
+            <p class="paper-summary">Compact identity and state tokens connect recurring objects across time, providing a token-efficient interface for Video-LLMs.</p>
+            <a class="read-more" href="publications.html#slotnarrative">Overview &amp; resources <span class="icon icon-arrow-up-right" aria-hidden="true"></span></a>
+          </div>
+        </article>
+        <article class="research-preview" aria-labelledby="toc-bench-title">
+          <a class="preview-figure" href="publications.html#toc-bench" aria-label="Read more about TOC-Bench">
+            <img src="assets/papers/toc-bench-thumb.png" alt="Four examples from TOC-Bench illustrating multiple-choice, statement-pair, event-ordering, and counting tasks." width="1672" height="941" loading="lazy" decoding="async">
+          </a>
+          <div class="preview-copy">
+            <h3 id="toc-bench-title"><a href="publications.html#toc-bench">TOC-Bench: A Temporal Object Consistency Benchmark for Video Large Language Models</a></h3>
+            <p class="authors"><strong>Junzhe Chen</strong>, Siyuan Meng, Yuxi Chen, Man Zhao, Wenyao Gui, Xiaojie Guo</p>
+            <p class="venue"><em>arXiv preprint</em>, 2026</p>
+            <p class="paper-summary">A diagnostic benchmark for object identity, state, and temporal continuity, grounded in object tracks and ordered visual evidence.</p>
+            <a class="read-more" href="publications.html#toc-bench">Overview &amp; resources <span class="icon icon-arrow-up-right" aria-hidden="true"></span></a>
+          </div>
+        </article>
+        </div>
+        <p class="all-publications"><a href="publications.html">View all publications and preprints <span class="icon icon-arrow-up-right" aria-hidden="true"></span></a></p>
       </section>
 
       <section id="education" aria-labelledby="education-heading">
-        <h2 id="education-heading">Education</h2>
+        <h2 id="education-heading"><span class="icon icon-graduation-cap" aria-hidden="true"></span>Education</h2>
         <ul class="education-list">
           <li><div><strong>Tianjin University</strong><p>Ph.D. student in Computer Science</p></div><span class="date">Current</span></li>
           <li><div><strong>Johns Hopkins University</strong><p>M.S. in Computer Science</p></div><span class="date"><time datetime="2024-01">Jan 2024</time> – <time datetime="2025-05">May 2025</time></span></li>
@@ -117,7 +102,7 @@
       </section>
 
       <section id="experience" aria-labelledby="experience-heading">
-        <h2 id="experience-heading">Industry Experience</h2>
+        <h2 id="experience-heading"><span class="icon icon-briefcase-business" aria-hidden="true"></span>Industry Experience</h2>
         <ul class="experience-list">
           <li><strong>Huizhi Square Technology</strong> — Algorithm Engineer</li>
           <li><strong>OPPO</strong> — Deep Learning Intern</li>
@@ -126,7 +111,7 @@
       </section>
 
       <section id="honors" aria-labelledby="honors-heading">
-        <h2 id="honors-heading">Honors &amp; Awards</h2>
+        <h2 id="honors-heading"><span class="icon icon-award" aria-hidden="true"></span>Honors &amp; Awards</h2>
         <ul class="honors-list">
           <li>Third Prize, Beijing Big Data Skills Competition, 2023</li>
           <li>Outstanding Undergraduate Thesis, Beijing Jiaotong University, 2023</li>

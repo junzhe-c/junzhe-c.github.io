@@ -26,3 +26,16 @@ The previous homepage remains in Git history. On 2026-08-31 the owner confirmed 
 - The HTML has no scripts and loads no external font, decoration image, or tracking resource. All page content and resource links work without JavaScript.
 - README and content-source notes describe the current structure. Previous design assets remain in the repository for provenance but are not used by the page.
 - `git diff --check` passed. Local preview returns HTTP 200. Detailed external-link responses and before/after screenshots are under `.preview/2026-10-15/` (gitignored).
+
+## 2026-10-15 icons, advisor, and illustrated publications
+
+- Added the owner-confirmed advisor Xiaojie Guo (郭晓杰) to the biography and both page sidebars, linking to his verified personal homepage.
+- Added restrained teal accents and local decorative Lucide icons, retaining text labels and the academic two-column structure.
+- Added an independent `publications.html` with four complete paper entries, grounded descriptions, original figures for SlotNarrative/TOC-Bench/LCPAQ, per-paper jump links, full-size image links, PDFs, code where public, and BibTeX. Semi-RSTOD retains a text introduction because the publisher's public request returned an anti-bot message; no figure is invented.
+- Homepage research highlights preview the two recent video papers and link directly to their publication sections. Small image derivatives reduce homepage image transfer to about 640 KiB while keeping original files accessible.
+- Compared all four complete author lists against the preceding version. All match. Confirmed the existing JHU dates, Ph.D. status, and CNAME are preserved.
+- Checked all local page/fragment links, image alt attributes and files, unique IDs and one h1 per page, local CSS icon references, and page-specific title/canonical/Open Graph metadata.
+- HTTP checks passed for 29 distinct local pages and linked resources, including figures, icon SVGs, and citations.
+- Visually inspected homepage and illustrated publications on desktop; inspected the TOC-Bench and LCPAQ figures and their descriptions. All three publication figures loaded. Checked the publication page at 320px, 390px, 768px, and 1280px without horizontal overflow, and the homepage at 390px.
+- Confirmed homepage-to-paper and back-to-home navigation, publication jump links, and target positions below the fixed header. The page does not require JavaScript.
+- `git diff --check` passed. Local screenshots and preparation notes are stored under `.preview/2026-10-15-publications/` (gitignored).
